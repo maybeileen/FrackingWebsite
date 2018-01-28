@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald'); 
+
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.header{
+    height:0%;
+    width:100%;
+    margin:auto;
+    top: 0;
+    background-size:cover;
+}
+
+.navbar{
+    height: 15%;
+    width:100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 15px 50px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.navbar ul li:hover{
+    background: orange; 
+}
+
+
+a:link
+{
+    color:#FFFFFF;
+    opacity=1; 
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+    opacity=1;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color:#FFFFFF;
+    opacity=1;
+    text-decoration: none;
+}
+
+
+/* Code */ 
+/* Some parts of code taken from Divyanshu Sisodiya" 
+https://www.youtube.com/watch?v=VQ0wmwb40Y8
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://static.pexels.com/photos/8633/nature-tree-green-pine.jpg) no-repeat;
+  width: 25%vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width:20%;
+    height:auto;
+    background: #f2ffcc;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    margin-top: 10%;
+    margin-left: 55px;
+    border-bottom:1px solid yellow;
+    text-align: center;
+    
+}
+.profile {
+  width:90%;
+  margin:0 auto;
+  padding:20px;
+}
+
+.profile img {
+  positon:relative;
+  width:90%;
+  height: 30%;
+  border:2px solid pink;
+  border-radius:50%;
+  margin:0 auto;
+}
+
+h2 {
+  color: black;
+  background:#99ccff;
+  border-bottom:1px solid yellow;
+  text-align: auto;
+  margin-top:-5px;
+  padding:10px 0;
+}
+
+h3 {
+  padding:5px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size:14px;
+  text-align: center;
+  line-height:1.25;
+}
+p {
+  padding:5px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size:14px;
+  text-align: left;
+  line-height:1.25;
+}
+.social{
+  padding:10px 0;
+  background:#f2ffcc;
+  width:100%;
+}
+.social a img {
+  border-radius:20%;
+  margin-left:15px;
+}
+
